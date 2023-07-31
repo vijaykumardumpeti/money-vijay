@@ -10,6 +10,7 @@ import DashboardCreditCard from "../DashboardCreditCard";
 import Header from "../Header";
 import SideNavbar from "../SideNavbar";
 import DashboardLastTransactions from "../DashboardLastTransactions";
+import BarchartForDashboard from "../BarchartForDashboard";
 
 const Dashboard = () => (
   <DashboardPage>
@@ -22,6 +23,7 @@ const Dashboard = () => (
           <DashboardDebitCard />
         </CreditAndDebitContainer>
         <DashboardLastTransactions />
+        <BarchartForDashboard/>
       </DashboardContainer>
     </DashboardWithHeader>
   </DashboardPage>

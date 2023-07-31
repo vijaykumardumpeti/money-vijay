@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 import {
   Sidebar,
@@ -107,22 +107,22 @@ const SideNavbar = () => (
 
 <SectionsContainer>
   <LogoContainer>
-      <Link to="/">
+      
         <HiHome/> 
         <Para>Dashboard</Para>
-      </Link>
+     
   </LogoContainer>
   <LogoContainer>
-    <Link to="/transactions">
+   
       <FcMoneyTransfer/>
       <Para>Transactions</Para>
-    </Link>
+   
   </LogoContainer>
   <LogoContainer>
-     <Link to="/profile">
+   
      <GrUserManager/>
      <Para>Profile</Para> 
-     </Link>
+    
   </LogoContainer>
 </SectionsContainer>
 
